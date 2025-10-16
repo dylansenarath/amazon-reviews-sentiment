@@ -1,4 +1,4 @@
-\# Amazon Reviews Sentiment Analysis
+# Amazon Reviews Sentiment Analysis
 
 
 
@@ -6,21 +6,21 @@ Sentiment classification on the Amazon Reviews dataset using multiple representa
 
 
 
-\## Features
+## Features
 
-\- Word2Vec embeddings
+- Word2Vec embeddings
 
-\- TF-IDF features
+- TF-IDF features
 
-\- MLP and CNN baselines
+- MLP and CNN baselines
 
-\- Training/evaluation pipeline with F1, precision, recall
+- Training/evaluation pipeline with F1, precision, recall
 
-\- Debug prints for inspection during training
+- Debug prints for inspection during training
 
 
 
-\## Quickstart (after code is added)
+## Quickstart (after code is added)
 
 ```bash
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 
 
-\# Example training run
+# Example training run
 
 python src/train.py --model mlp --epochs 5
 
